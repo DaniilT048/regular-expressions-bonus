@@ -1,6 +1,5 @@
 
 function isValidUrl(url) {
-// return /^(https?:\/\/)([^:/]+)(?::(\d+))?([^?#]*)(\?[^#]*)?(#.*)?$/gi.test(url);
 return /^(https?:\/\/)?(www\.)?([\w-]+\.)+[\w-]{2,}(\/[^\s]*)?$/i.test(url)
 }
 
